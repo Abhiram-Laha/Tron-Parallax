@@ -1,0 +1,115 @@
+body,html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+    overflow-x: hidden;
+}
+
+#pg1, #pg2, #pg3, #pg4{
+    position:relative;
+    opacity:0.90;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+   
+    background-attachment:fixed;
+}
+
+#pg1{
+    background-image: url("img/img1.jpg");
+    
+    min-height: 100%;
+}
+#pg2{
+    background-image: url("img/img2.jpg");
+    min-height: 100%;
+}
+#pg3{
+    background-image: url("img/img3.jpg");
+    min-height: 100%;
+}
+
+#pg4{
+    background-image: url("img/img4.jpg");
+    min-height: 100%;
+}
+
+section{
+    text-align:center;
+  padding:50px 80px;
+  
+  background-color:#220f2f;
+  
+}
+
+
+#dark_section{
+    
+    background-color:#000000;
+    background-blend-mode: lighten;
+    color:rgb(255, 255, 255);
+
+    opacity: 1;
+    
+      
+}
+
+#text{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:12px;
+  text-transform:uppercase;
+  font-weight:bolder;
+}
+#text{
+    background-color:#111;
+  color:#fff;
+  padding:20px;
+  
+    background-color:transparent;
+}
+
+#text:hover{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+img{
+    width: 30%;
+    height: 30%;
+    padding: 120px;
+}
+
+#main{
+    position:absolute;
+   top:60%;
+   width:100%;
+   right: 24%;
+  text-align:center;
+  color: white;
+  font-size:120px;
+  letter-spacing:10px;
+  text-transform:uppercase;
+  font-weight:bolder;
+  text-shadow: 5px 5px 3px #8538f2;
+}
+
+
+
+
+#main:hover{
+    cursor:pointer;
+    font-size: 125px;
+}
+  
+
